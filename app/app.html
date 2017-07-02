@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello Electron React!</title>
+    <title>Slacord</title>
     <script>
       (function() {
         if (!process.env.HOT) {
@@ -31,13 +31,13 @@
         const port = process.env.PORT || 1212;
         scripts.push(
           (process.env.HOT)
-            ? 'http://localhost:' + port + '/dist/bundle.js'
+          ? `http://localhost:${port}/dist/bundle.js`
             : './dist/bundle.js'
         );
 
         document.write(
           scripts
-            .map(script => '<script defer src="' + script + '"><\/script>')
+          .map(script => `<script defer src=${script}><\/script>`)
             .join('')
         );
       }
