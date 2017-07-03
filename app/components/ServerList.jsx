@@ -15,6 +15,7 @@ export default class ServerList extends Component {
       <div className={styles.container} data-tid='container'>
         <List>
           <Subheader>Servers</Subheader>
+          <Avatar>A</Avatar>
           <ListItem
             leftAvatar={<Avatar>A</Avatar>}
           />
