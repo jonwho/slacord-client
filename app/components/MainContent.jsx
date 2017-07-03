@@ -26,15 +26,15 @@ export default class MainContent extends Component {
           </ListItem>
         </List>
 
-        <Divider inset={true} />
-
-        <TextField
-          hintText="Type your message here"
-          multiLine={true}
-          rows={1}
-          rowsMax={8}
-          fullWidth={true}
-        />
+        <div className={styles.textFieldContainer}>
+          <TextField
+            hintText="Type your message here"
+            multiLine={true}
+            rows={1}
+            rowsMax={8}
+            fullWidth={true}
+          />
+        </div>
       </div>
     );
   }
