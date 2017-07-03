@@ -12,28 +12,20 @@ export default class ChannelList extends Component {
       <div className={styles.container} data-tid="container">
         <List>
           <Subheader>Text Channels</Subheader>
-          <ListItem
-            leftAvatar={<Avatar>A</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>B</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>C</Avatar>}
-          />
+          <ListItem leftAvatar={<Avatar>A</Avatar>} />
+          <br />
+          <ListItem leftAvatar={<Avatar>B</Avatar>} />
+          <br />
+          <ListItem leftAvatar={<Avatar>C</Avatar>} />
         </List>
 
         <List>
           <Subheader>Voice Channels</Subheader>
-          <ListItem
-            leftAvatar={<Avatar>A</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>B</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>C</Avatar>}
-          />
+          <ListItem leftAvatar={<Avatar>A</Avatar>} />
+          <br />
+          <ListItem leftAvatar={<Avatar>B</Avatar>} />
+          <br />
+          <ListItem leftAvatar={<Avatar>C</Avatar>} />
         </List>
       </div>
     );

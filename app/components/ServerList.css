@@ -4,3 +4,18 @@
   border: 1px solid;
   float: left;
 }
+
+.subheader {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.list li {
+  text-align: center;
+}

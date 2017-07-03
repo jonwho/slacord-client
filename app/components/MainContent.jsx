@@ -5,6 +5,7 @@ import Avatar from 'material-ui/Avatar';
 import {List, ListItem} from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
 import Divider from 'material-ui/Divider';
+import TextField from 'material-ui/TextField';
 
 export default class MainContent extends Component {
   render() {
@@ -24,6 +25,16 @@ export default class MainContent extends Component {
             MessageC
           </ListItem>
         </List>
+
+        <Divider inset={true} />
+
+        <TextField
+          hintText="Type your message here"
+          multiLine={true}
+          rows={1}
+          rowsMax={8}
+          fullWidth={true}
+        />
       </div>
     );
   }

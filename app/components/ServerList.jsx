@@ -13,20 +13,15 @@ export default class ServerList extends Component {
   render() {
     return (
       <div className={styles.container} data-tid='container'>
-        <List>
-          <Subheader>Servers</Subheader>
-          <Avatar>A</Avatar>
-          <ListItem
-            leftAvatar={<Avatar>A</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>B</Avatar>}
-          />
-          <ListItem
-            leftAvatar={<Avatar>C</Avatar>}
-          />
-          <Divider />
-        </List>
+        <p className={styles.subheader}>Servers</p>
+        <br />
+        <ul className={styles.list}>
+          <li><Avatar>A</Avatar></li>
+          <br />
+          <li><Avatar>B</Avatar></li>
+          <br />
+          <li><Avatar>C</Avatar></li>
+        </ul>
       </div>
     );
   }
