@@ -1,5 +1,6 @@
 .container {
   width: 100px;
+  height: 100vh; /* use 100% of viewport height */
   border: 1px solid;
   float: left;
 }

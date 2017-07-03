@@ -1,4 +1,5 @@
 .container {
   overflow: hidden;
   border: 1px solid;
+  height: 100vh; /* use 100% of viewport height */
 }
